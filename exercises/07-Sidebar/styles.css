@@ -1,3 +1,13 @@
-#wrapper{background: grey;}
-#sidebar{background: blue;}
-#content{background: yellow;}
+#wrapper {
+	background: darkgreen;
+	display: flex;
+	height: 100px;
+}
+
+#sidebar {
+	background: gray;
+	width: 200px;
+}
+#content {
+	background: darkgreen;
+}

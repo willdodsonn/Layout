@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	height: 100%;
 }
 #sectionA {
 	background: blue;
@@ -9,4 +10,14 @@ body {
 }
 #sectionC {
 	background: green;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height:800px;
+}
+.column {
+	flex-basis: 33%;
 }
